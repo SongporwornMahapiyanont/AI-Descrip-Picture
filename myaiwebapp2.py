@@ -10,10 +10,8 @@ st.set_page_config(page_title="LNC-BOT")
 st.title("Welcome To LNC-BOT")
 st.markdown(f'<p style="background-color:#1C3578;color:#ffffff;font-size:150%;text-align:center">{"Create by Songporworn Mahapiyanont"}</p>', unsafe_allow_html=True)
 text4 = "AI By Gemini (google)"
-
 st.markdown(f'<p style="text-align:right">{text4}</p>', unsafe_allow_html=True)
-st.markdown(f'<p style="background-color:#1C3578;font-size:150%;text-align:center">{"This Web is My project for reseach, learning ,etc."}</p>', unsafe_allow_html=True)
-st.text("")
+st.markdown(f'<p style="text-align:center">{"This Web is My project for reseach, learning ,etc"}</p>', unsafe_allow_html=True)
 st.text("You can copy for using learning etc. Have for fun Guy!")
 a = 9999
 st.write(a)
