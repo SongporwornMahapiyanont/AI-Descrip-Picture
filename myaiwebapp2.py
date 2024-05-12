@@ -6,7 +6,7 @@ import google.generativeai as genai
 genai.configure(api_key="AIzaSyA0TwQnk0mKo9rgnty9z9l05hoz7F2dfmU")
 model = genai.GenerativeModel("gemini-pro-vision")
 
-st.title("Welcome to Gemini Descrip Picture")
+st.title("Welcome-to-Descrip-Picture")
 #prompt = st.text_input("ป้อน prompt: ","บรรยายภาพนี้")
                   
 prompt = "คืออะไรไม่ต้องบอกระเอียดมาก ถ้าสิ่งของมีสีดำหรือเทาหรือน้ำตาลให้บอกว่า'เสีย'และถ้าไม่มีให้บอกว่า'ไม่เสีย' มีจำนวนเท่าไหร่บอกหน่วยด้วยและมีประมาณกี่กิโลกรัมทศนิยมสองตำแหน่งและแช่ในตู้เย็นจะหมดอายุประมาณกี่วัน ตอบทุกคำถามจัดระเบียบคำตอบให้สวยงาม"
