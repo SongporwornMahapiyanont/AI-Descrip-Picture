@@ -9,7 +9,7 @@ model = genai.GenerativeModel("gemini-pro-vision")
 st.title("ยินดีต้อนรับสู่การบรรยายภาพ")
 #prompt = st.text_input("ป้อน prompt: ","บรรยายภาพนี้")
                   
-prompt = "สิ่งนี้คืออะไร"
+prompt = "สิ่งนี้คืออะไร ถ้าคือไข่ไก่มีกี่ฟองและถ้าไม่ใช่ไข่ไก่ไม่ต้องบอกว่ามีกี่ฟอง"
 
 img_file = st.file_uploader("เปิดไฟล์ภาพ")
 
@@ -21,7 +21,7 @@ if img_file is not None:
 if st.button("ประมวลผล"):
     try:
         response = model.generate_content([img,prompt])
-        print(response)
+        st.text(response.text)
     except:
         st.text("no response")
 
