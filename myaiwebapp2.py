@@ -25,7 +25,7 @@ if st.button("ประมวลผล"):
             descrip = "มีกี่ฟอง"
             answer = model.generate_content([img,descrip])
             st.text(answer.text)
-        st.text(response.text)
+        text(response.text)
     except:
         st.text("no response")
 
