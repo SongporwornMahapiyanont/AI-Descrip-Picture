@@ -7,7 +7,7 @@ genai.configure(api_key="AIzaSyA0TwQnk0mKo9rgnty9z9l05hoz7F2dfmU")
 model = genai.GenerativeModel("gemini-pro-vision")
 
 st.title("ยินดีต้อนรับสู่การบรรยายภาพ")
-prompt = st.text_input("ป้อน prompt: ","บรรยายภาพนี้")
+#prompt = st.text_input("ป้อน prompt: ","บรรยายภาพนี้")
                   
 prompt = "บรรยายภาพนี้อย่างละเอียด"
 
