@@ -21,7 +21,10 @@ if img_file is not None:
 if st.button("ประมวลผล"):
     try:
         response = model.generate_content([img,prompt])
-        st.text(response.text)
+        if response=="ไข่ไก่":
+            descrip = "มีกี่ฟอง"
+            answer = model.generate_content([img,descrip])
+            st.text(response.text,answer.text)
     except:
         st.text("no response")
 
