@@ -58,7 +58,6 @@ if st.button("Translate"):
 
 
 
-api_key   = "AIzaSyA0TwQnk0mKo9rgnty9z9l05hoz7F2dfmU"
 engine_id = "stable-diffusion-v1-6"
 filename_save = "image_out.jpg"
 
