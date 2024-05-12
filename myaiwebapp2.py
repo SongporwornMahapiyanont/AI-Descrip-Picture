@@ -7,8 +7,7 @@ genai.configure(api_key="AIzaSyA0TwQnk0mKo9rgnty9z9l05hoz7F2dfmU")
 model = genai.GenerativeModel("gemini-pro-vision")
 
 st.title("ยินดีต้อนรับสู่การบรรยายภาพของบอท")
-#ch = st.selectbox("เลือกหมวด",
-#                ("สัตว์","สิ่งของ","ผลไม้","ดอกไม้"))
+prompt = st.text_input("ป้อน prompt: ","บรรยายภาพนี้")
                   
 prompt = "บรรยายภาพนี้อย่างละเอียด"
 
