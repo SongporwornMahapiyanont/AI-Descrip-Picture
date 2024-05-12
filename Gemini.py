@@ -1,9 +1,6 @@
 import streamlit as st
 import io
 from PIL import Image
-import GT
-import cv2
-from stability_ai import text2image
 import google.generativeai as genai
 genai.configure(api_key="AIzaSyA0TwQnk0mKo9rgnty9z9l05hoz7F2dfmU")
 model = genai.GenerativeModel("gemini-pro-vision")
