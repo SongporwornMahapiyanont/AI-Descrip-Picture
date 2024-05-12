@@ -10,10 +10,11 @@ st.set_page_config(page_title="LNC-BOT")
 st.title("Welcome To LNC-BOT")
 st.markdown(f'<p style="background-color:#1C3578;color:#ffffff;font-size:150%;text-align:center">{"Create by Songporworn Mahapiyanont"}</p>', unsafe_allow_html=True)
 text4 = "AI By Gemini (google)"
-a = 9999
-st.write(a)
+
 st.markdown(f'<p style="text-align:right">{text4}</p>', unsafe_allow_html=True)
 st.text("This Web is My project for reseach, learning ,etc. You can copy for using learning etc. Have for fun Guy!")
+a = 9999
+st.write(a)
 #prompt = st.text_input("ป้อน prompt: ","บรรยายภาพนี้")
                   
 prompt = "คืออะไรไม่ต้องบอกระเอียดมาก ถ้าสิ่งของมีสีดำหรือเทาหรือน้ำตาลให้บอกว่า'เสีย'และถ้าไม่มีให้บอกว่า'ไม่เสีย' มีจำนวนเท่าไหร่บอกหน่วยด้วยและมีประมาณกี่กิโลกรัมทศนิยมสองตำแหน่งและแช่ในตู้เย็นจะหมดอายุประมาณกี่วัน ตอบทุกคำถามจัดระเบียบคำตอบให้สวยงาม"
