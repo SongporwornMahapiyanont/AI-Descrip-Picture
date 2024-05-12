@@ -44,7 +44,7 @@ ch = st.selectbox("Type your language",
 
 text_in = st.text_input("ป้อนข้อความที่ต้องการแปล: ")
 
-prompt = "แปลข้อความต่อไปนี้เป็นภาษา"+ ch + " " + text_in
+prompt = "Translate this sentence to "+ ch + " " + text_in
 st.text(prompt)
 
 if st.button("Translate"):
