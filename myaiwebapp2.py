@@ -12,7 +12,8 @@ st.markdown(f'<p style="background-color:#1C3578;color:#ffffff;font-size:150%;te
 text4 = "AI By Gemini (google)"
 st.markdown(f'<p style="text-align:right">{text4}</p>', unsafe_allow_html=True)
 st.markdown(f'<p style="text-align:center">{"This Web is My project for reseach, learning ,etc"}</p>', unsafe_allow_html=True)
-st.text("You can copy for using learning etc. Have for fun Guy!")
+st.markdown(f'<p style="text-align:center">{"You can copy for using learning etc. Have for fun Guy!"}</p>', unsafe_allow_html=True)
+
 a = 9999
 st.write(a)
 #prompt = st.text_input("ป้อน prompt: ","บรรยายภาพนี้")
