@@ -40,9 +40,9 @@ model2 = genai.GenerativeModel("gemini-pro")
 
 st.title("Translate")
 ch = st.selectbox("Type your language",
-                 ("ไทย","english","korea","japan"))
+                 ("thai","english","korea","japan"))
 
-text_in = st.text_input("ป้อนข้อความที่ต้องการแปล: ")
+text_in = st.text_input("input your word : ")
 
 prompt = "Translate language " + text_in + " to " + ch  
 st.text(prompt)
