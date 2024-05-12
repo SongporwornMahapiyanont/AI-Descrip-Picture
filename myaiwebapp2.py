@@ -8,6 +8,8 @@ model = genai.GenerativeModel("gemini-pro-vision")
 
 st.set_page_config(page_title="LNC-BOT")
 st.title("Welcome To LNC-BOT")
+st.subheader("AI By Gemini (google)")
+st.text("This Web is My project for reseach, learning ,etc. You can copy for using learning etc. Have for fun Guy!")
 #prompt = st.text_input("ป้อน prompt: ","บรรยายภาพนี้")
                   
 prompt = "คืออะไรไม่ต้องบอกระเอียดมาก ถ้าสิ่งของมีสีดำหรือเทาหรือน้ำตาลให้บอกว่า'เสีย'และถ้าไม่มีให้บอกว่า'ไม่เสีย' มีจำนวนเท่าไหร่บอกหน่วยด้วยและมีประมาณกี่กิโลกรัมทศนิยมสองตำแหน่งและแช่ในตู้เย็นจะหมดอายุประมาณกี่วัน ตอบทุกคำถามจัดระเบียบคำตอบให้สวยงาม"
