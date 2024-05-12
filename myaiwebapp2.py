@@ -38,16 +38,16 @@ if st.button("ประมวลผล"):
 
 model2 = genai.GenerativeModel("gemini-pro")
 
-st.title("แปลภาษา")
-ch = st.selectbox("เลือกภาษาปลายทาง",
-                 ("ไทย","อังกฤษ","เกาหลี","ญี่ปุ่น"))
+st.title("Translate")
+ch = st.selectbox("Type your language",
+                 ("ไทย","english","korea","japan"))
 
 text_in = st.text_input("ป้อนข้อความที่ต้องการแปล: ")
 
 prompt = "แปลข้อความต่อไปนี้เป็นภาษา"+ ch + " " + text_in
 st.text(prompt)
 
-if st.button("แปล"):
+if st.button("Translate"):
     try:
         response = model2.generate_content(prompt)
         st.text(response.text)
