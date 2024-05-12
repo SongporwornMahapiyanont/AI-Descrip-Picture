@@ -9,7 +9,7 @@ model = genai.GenerativeModel("gemini-pro-vision")
 st.title("ยินดีต้อนรับสู่การบรรยายภาพ")
 #prompt = st.text_input("ป้อน prompt: ","บรรยายภาพนี้")
                   
-prompt = "ภาพนี้คืออะไร"
+prompt = "รูปนี้คืออะไร"
 
 img_file = st.file_uploader("เปิดไฟล์ภาพ")
 
