@@ -9,7 +9,7 @@ model = genai.GenerativeModel("gemini-pro-vision")
 st.set_page_config(page_title="LNC-BOT")
 st.title("Welcome To LNC-BOT")
 text4 = "AI By Gemini (google)"
-st.markdown(f'<p style="text-align:center">{text4}</p>', unsafe_allow_html=True)
+st.markdown(f'<p style="text-align:right">{text4}</p>', unsafe_allow_html=True)
 st.text("This Web is My project for reseach, learning ,etc. You can copy for using learning etc. Have for fun Guy!")
 #prompt = st.text_input("ป้อน prompt: ","บรรยายภาพนี้")
                   
