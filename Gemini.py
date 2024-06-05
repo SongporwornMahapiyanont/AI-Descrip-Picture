@@ -55,7 +55,7 @@ if st.button("Translate"):
         st.text(response.text)
     except:
         st.text("no response")
-
+      //
 
 
 
